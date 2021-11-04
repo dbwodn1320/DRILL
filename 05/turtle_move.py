@@ -1,6 +1,5 @@
 import turtle
 
-
 def turtle_move_up():
     turtle.stamp()
     turtle.setheading(90)
@@ -28,3 +27,4 @@ turtle.onkey(turtle_move_down,'s')
 turtle.onkey(turtle_move_right,'d')
 turtle.onkey(turtle_move_reset,'Escape')
 turtle.listen()
+turtle.mainloop()
